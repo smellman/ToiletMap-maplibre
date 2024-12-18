@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@maplibre/maplibre-react-native": "^10.0.0-alpha.28",
+    "@maplibre/maplibre-react-native": "^10.0.0-beta.11",
     "@turf/turf": "^7.1.0",
     "react": "18.3.1",
     "react-native": "0.76.5"

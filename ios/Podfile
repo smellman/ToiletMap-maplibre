@@ -36,5 +36,6 @@ target 'ToiletMap' do
       :mac_catalyst_enabled => false,
       # :ccache_enabled => true
     )
+    $MLRN.post_install(installer)
   end
 end
