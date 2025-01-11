@@ -12,10 +12,8 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import MapLibreRN, { Camera, MapView, MapViewRef, ShapeSource, SymbolLayer, SymbolLayerStyle } from '@maplibre/maplibre-react-native';
+import { Camera, MapView, MapViewRef, ShapeSource, SymbolLayer, SymbolLayerStyle } from '@maplibre/maplibre-react-native';
 import * as GeoJSON from 'geojson';
-
-MapLibreRN.setAccessToken(null);
 
 const OVERPASS_API = 'https://overpass.openstreetmap.jp/api/interpreter';
 
